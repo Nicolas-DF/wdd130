@@ -24,6 +24,7 @@ main img {
     border: 1px solid var(--border-color);
     padding: var(--img-padding);
     box-shadow: var(--img-shadow);
+    float: right;
 }
 
 nav {
@@ -66,6 +67,12 @@ aside {
 aside img {
     max-width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 150px;
 }
 
 footer {
