@@ -69,7 +69,7 @@ article {
     height: auto;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 400px;
     font-family: var(--body-font);
