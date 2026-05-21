@@ -73,7 +73,17 @@ article {
     height: auto;
 }
 
-.client img {
-    width: 200px;
+article {
+    position: absolute;
+    top: 400px;
+    font-family: var(--body-font);
+    text-align: center;
+    background-color: rgba(38, 70, 83, 0.8);
+    color: #fff;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
     height: auto;
 }
