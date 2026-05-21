@@ -51,3 +51,13 @@ article {
     width: 50px;
     height: auto;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
