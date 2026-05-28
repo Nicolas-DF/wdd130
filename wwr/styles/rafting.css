@@ -125,6 +125,31 @@ nav a {
     border-radius: 8px;
 }
 
+.adventure {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.adventure figure {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+}
+
+.adventure img {
+    width: 150px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.adventure figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+}
+
 .flex {
     display: flex;
 }
