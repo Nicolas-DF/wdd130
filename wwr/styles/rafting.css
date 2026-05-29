@@ -85,12 +85,12 @@ article {
 }
 
 section p {
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 h2 {
-    color: var(--secondary-color);
     text-align: center;
+    border: 3px solid var(--accent2-color);
 }
 
 header {
@@ -130,6 +130,8 @@ nav a {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 20px;
+    background-color: var(--secondary-color);
+    color: #000;
 }
 
 .adventure figure {
