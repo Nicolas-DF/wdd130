@@ -151,11 +151,17 @@ nav a {
     color: var(--accent1-color);
 }
 
-.flex {
+footer.flex {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.flex nav {
-    align-items: end;
-    justify-content: center;
+footer.flex p {
+    margin: 0;
+}
+
+footer.flex .socialmedia {
+    display: flex;
+    gap: 10px;
 }
