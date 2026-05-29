@@ -139,8 +139,9 @@ nav a {
 }
 
 .adventure img {
-    width: 150px;
-    height: auto;
+    height: 75px;
+    width: auto;
+    max-width: 150px;
     border-radius: 6px;
 }
 
