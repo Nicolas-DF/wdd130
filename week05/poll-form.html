@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Exercise</title>
 </head>
-<header></header>
+<header>
+    <h1>WDD 130 | Form Activity</h1>
+</header>
 <main>
     <form>
         <label for="fullname">Full Name:</label>
@@ -18,13 +20,22 @@
         <label for="browser">What is your favorite browser?:</label>
         <select name="browser" id="browser">
             <option value="1">Opera GX</option>
-            <option value="2">Google Chrome</option>
-            <option value="3">MS Edge</option>
+            <option value="2">Chrome</option>
+            <option value="3">Edge</option>
+            <option value="4">Other</option>
         </select>
 
-        <label><input type="checkbox" name="pet" id="pet">Do you have a household pet?</label>
+        <label for="pet">Do you have a household pet?</label>
+        <input type="checkbox" name="pet" id="pet">
+
+        <label for="feedback">List the places you have lived:</label>
+        <textarea name="feedback" id="feedback" rows="4"
+          placeholder="Panamá, El Salvador, México"></textarea>
+
+        <button type="submit">Submit Poll</button>
     </form>
 </main>
-<footer></footer>
+
+<footer>&copy; 2026 | Nicolas Domingues Falcão</footer>
 
 </html>
