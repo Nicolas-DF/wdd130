@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: cursive;
     font-size: 1.2rem;
     color: #333;
     background: #fff;
@@ -45,4 +45,12 @@ legend {
     padding: 0.5rem;
     color: navy;
     font-size: 1.3em;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
 }
