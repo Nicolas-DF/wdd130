@@ -19,6 +19,23 @@ form {
     color: #111;
 }
 
+input,
+textarea,
+select,
+button {
+    padding: .75rem;
+    min-width: 350px;
+}
+
+button {
+    background-color: navy;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0 /10%);
+}
+
 code {
     display: block;
     background-color: #000;
@@ -29,4 +46,8 @@ code {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 /10%);
     padding: 1rem;
+}
+
+.quiz-item {
+    border: none;
 }
