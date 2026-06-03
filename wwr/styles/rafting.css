@@ -31,7 +31,7 @@ h2 {
     color: var(--primary-color)
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -175,6 +175,10 @@ footer.flex .socialmedia {
     line-height: .5;
 }
 
+.contact h1 {
+    color: var(--accent1-color);
+}
+
 .layout {
     display: flex;
     justify-content: center;
@@ -305,6 +309,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 20px;
     background-color: var(--secondary-color);
     color: #000;
 }
