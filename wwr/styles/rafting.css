@@ -300,3 +300,36 @@ button {
 button:hover {
     background-color: var(--primary-color);
 }
+
+.employees {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
+.employees h2 {
+    width: 100%;
+    border: none;
+    color: #000;
+}
+
+.employees figure {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+}
+
+.employees img {
+    height: 150px;
+    width: auto;
+    max-width: 200px;
+    border-radius: 6px;
+}
+
+.employees figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+}
