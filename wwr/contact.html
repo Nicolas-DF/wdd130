@@ -32,43 +32,45 @@
             <p>info@splashwaterrifting.com</p>
         </div>
 
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d161141.89328935693!2d-59.422497146821094!3d-3.127788781616761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1780484411042!5m2!1spt-BR!2sbr"
-          width="600" height="450" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="layout">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d161141.89328935693!2d-59.422497146821094!3d-3.127788781616761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1780484411042!5m2!1spt-BR!2sbr"
+              width="600" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <form>
-            <div class="">
-                <label for="fullname"> Full Name</label>
-                <input type="text" name="fullname" id="fullname">
-                <label for="useremail">Email Address</label>
-                <input type="email" name="useremail" id="useremail">
-            </div>
-            <div class="form-group">
-                <p>Message Purpose</p>
+            <form>
+                <div class="form-personal-info">
+                    <label for="fullname"> Full Name</label>
+                    <input type="text" name="fullname" id="fullname">
+                    <label for="useremail">Email Address</label>
+                    <input type="email" name="useremail" id="useremail">
+                </div>
+                <div class="form-group">
+                    <p>Message Purpose</p>
 
-                <input type="radio" name="purpose" id="general" value="general">
-                <label for="general">General Inquiry</label>
+                    <input type="radio" name="purpose" id="general" value="general">
+                    <label for="general">General Inquiry</label>
 
-                <input type="radio" name="purpose" id="reservation" value="reservation">
-                <label for="reservation">Reservation Question</label>
+                    <input type="radio" name="purpose" id="reservation" value="reservation">
+                    <label for="reservation">Reservation Question</label>
 
-                <input type="radio" name="purpose" id="website" value="website">
-                <label for="website">Website Suggestion</label>
-            </div>
+                    <input type="radio" name="purpose" id="website" value="website">
+                    <label for="website">Website Suggestion</label>
+                </div>
 
-            <div class="">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" placeholder="Type here"></textarea>
-            </div>
-            <div>
-                <input type="checkbox" name="subscribe" id="subscribe">
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-            </div>
-            <div>
-                <button type="submit">Get in Touch!</button>
-            </div>
-        </form>
+                <div class="form-message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Type here"></textarea>
+                </div>
+                <div class="form-submission">
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <div>
+                    <button type="submit">Get in Touch!</button>
+                </div>
+            </form>
+        </div>
 
         <section>
             <h2>We Are Here to Serve You</h2>
