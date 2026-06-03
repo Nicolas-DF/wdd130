@@ -44,12 +44,19 @@
                 <label for="useremail">Email Address</label>
                 <input type="email" name="useremail" id="useremail">
             </div>
-            <div class="">
-                <label for="purpose">Message Purpose</label>
-                <input type="radio" name="purpose" id="purpose">General Inquiry
-                <input type="radio" name="purpose" id="purpose">Reservation Question
-                <input type="radio" name="purpose" id="purpose">Website Suggestion
+            <div class="form-group">
+                <p>Message Purpose</p>
+
+                <input type="radio" name="purpose" id="general" value="general">
+                <label for="general">General Inquiry</label>
+
+                <input type="radio" name="purpose" id="reservation" value="reservation">
+                <label for="reservation">Reservation Question</label>
+
+                <input type="radio" name="purpose" id="website" value="website">
+                <label for="website">Website Suggestion</label>
             </div>
+
             <div class="">
                 <label for="message">Message</label>
                 <textarea name="message" id="message" placeholder="Type here"></textarea>
