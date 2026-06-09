@@ -21,7 +21,8 @@ body {
 header,
 main,
 footer {
-    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h1,
@@ -163,6 +164,7 @@ footer.flex {
 
 footer.flex p {
     margin: 0;
+    justify-self: center;
 }
 
 footer.flex .socialmedia {
@@ -348,4 +350,75 @@ button:hover {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.hero-index img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-index h1 {
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.trips-newsletter {
+    margin: 40px auto;
+    max-width: 1200px;
+    text-align: center;
+    background-color: rgba(150, 180, 150, 0.8);
+}
+
+.trips-newsletter h2 {
+    margin-bottom: 20px;
+    border: none;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1.5px;
+    color: #000;
+}
+
+.trips-newsletter a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.newsletter {
+    text-align: left;
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.trips-grid figure {
+    text-align: center;
+}
+
+.trips-grid img {
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.trips-grid figcaption {
+    color: #000;
 }

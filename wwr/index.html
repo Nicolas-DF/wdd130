@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splash Water Rafting | Home Page</title>
     <link rel="stylesheet" href="styles/rafting.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <meta name="author" content="Nicolas Domingues Falcão">
 </head>
 
@@ -25,21 +27,49 @@
         <div class="hero">
             <div class="hero-index">
                 <img src="images/hero-index.jpg" alt="Hero image of four men water rafting">
-                <h1>Have an Adventure!</h1>
+                <h1>Have THE Adventure!</h1>
             </div>
         </div>
 
 
-        <div class="newsletter">
-            <p>Keep updated with our newsletter!</p>
-            <form>
-                <label for="username">Name:</label>
-                <input type="text" name="username" id="username">
-                <label for="useremail">Email:</label>
-                <input type="email" name="useremail" id="useremail">
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
+        <section class="trips-newsletter">
+            <h2><a href="trips.html">Check Our Trips!</a></h2>
+            <div class="grid-container">
+                <div class="newsletter">
+                    <p>Keep updated with our newsletter!</p>
+                    <form>
+                        <label>Name: <input type="text" name="username" id="username"></label>
+                        <label>Email: <input type="email" name="useremail" id="useremail"></label>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="trips-grid">
+                    <figure>
+                        <img src="images/river.jpg" alt="River">
+                        <figcaption>
+                            <strong>Rivers</strong><br>
+                            Explore stunning rivers with varying levels of rapids.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/camping.jpg" alt="Camping">
+                        <figcaption>
+                            <strong>Camping</strong><br>
+                            Complete experience with guided camping trips in the heart of nature.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rapids.jpg" alt="Rapids">
+                        <figcaption>
+                            <strong>Rapids</strong><br>
+                            Extreme adventures in intense rapids for those seeking thrills.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer class="flex">
         <p>&copy; 2026 | Splash Water Rafting | Nicolas D. Falcão</p>
