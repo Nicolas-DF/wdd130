@@ -1,3 +1,4 @@
+/* General */
 :root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
@@ -114,6 +115,26 @@ nav a {
     padding: 0.5rem 1rem;
 }
 
+footer.flex {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    margin: 0;
+}
+
+footer.flex p {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+footer.flex .socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+/* about.html */
 .history-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -156,25 +177,7 @@ nav a {
     color: var(--accent1-color);
 }
 
-footer.flex {
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    margin: 0;
-}
-
-footer.flex p {
-    flex: 1;
-    text-align: center;
-    margin: 0;
-}
-
-footer.flex .socialmedia {
-    display: flex;
-    gap: 10px;
-}
-
+/* contact.html */
 .contact {
     background-color: var(--accent2-color);
     text-align: center;
@@ -347,7 +350,7 @@ button:hover {
     color: var(--accent1-color);
 }
 
-/* Index.html */
+/* index.html */
 .hero-index {
     position: absolute;
     top: 0;
