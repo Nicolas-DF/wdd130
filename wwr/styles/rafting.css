@@ -347,6 +347,7 @@ button:hover {
     color: var(--accent1-color);
 }
 
+/* Index.html */
 .hero-index {
     position: absolute;
     top: 0;
@@ -463,6 +464,39 @@ button:hover {
     justify-self: center;
 }
 
+.highlight {
+    background-color: var(--accent2-color);
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.highlight h2 {
+    font-size: 2rem;
+    color: var(--accent1-color);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.highlight p {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.highlight p:hover {
+    color: navy;
+    transform: scale(1.05);
+}
+
+.highlight a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+/* trips.html */
 .hero-trips h2 {
     position: absolute;
     top: 70%;
