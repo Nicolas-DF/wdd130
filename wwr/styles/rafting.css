@@ -111,6 +111,7 @@ header {
 
 header img {
     max-height: 180px;
+    min-height: 100px;
 }
 
 nav ul {
