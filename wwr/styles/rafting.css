@@ -527,3 +527,38 @@ button:hover {
     font-size: 1rem;
     color: var(--accent1-color);
 }
+
+.trips-table {
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.trips-table h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid var(--accent1-color);
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.trips-table th {
+    background-color: var(--secondary-color);
+    color: #000;
+    text-transform: uppercase;
+}
+
+.trips-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
